@@ -91,10 +91,6 @@ class Editor extends React.Component {
     }
 }
 
-   // Retorna la url del servicio. Es una función de configuración.
-function BBServiceURL() {
-    return 'ws://localhost:8080/bbService';
-}
 
 class WSBBChannel {
     constructor(URL, callback) {
