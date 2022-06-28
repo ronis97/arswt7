@@ -70,7 +70,7 @@ class BBCanvas extends React.Component {
 }
 function BBServiceURL() {
     var host = window.location.host;
-    var url = 'wss://' + 'powerful-bayou-71891.herokuapp.com' + '/bbService';
+    var url = 'wss://' + (host) + '/bbService';
     console.log("URL Calculada: " + url);
     return url;
 }
