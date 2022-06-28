@@ -92,7 +92,7 @@ class Editor extends React.Component {
 
    // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
-    return 'ws://localhost:8080/bbService';
+    return 'ws://powerful-bayou-71891.herokuapp.com//bbService';
 }
 
 class WSBBChannel {
