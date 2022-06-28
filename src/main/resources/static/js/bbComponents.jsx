@@ -51,15 +51,11 @@ class BBCanvas extends React.Component {
         }
     }
 
+
     drawPoint(x, y) { 
         this.myp5.ellipse(x,y,20,20);
     }
-    function BBServiceURL() {
-         var host = window.location.host;
-         var url = 'wss://' + (host) + '/bbService';
-         console.log("URL Calculada: " + url);
-         return url;
-    }
+    
     componentDidMount() {
         this.myp5 = new p5(this.sketch, 'container');
         this.setState({loadingState: 'Canvas Loaded'});
@@ -72,7 +68,12 @@ class BBCanvas extends React.Component {
             </div>);
         }
 }
-
+function BBServiceURL() {
+    var host = window.location.host;
+    var url = 'wss://' + (host) + '/bbService';
+    console.log("URL Calculada: " + url);
+    return url;
+}
 class Editor extends React.Component {
     render() {
         return (
