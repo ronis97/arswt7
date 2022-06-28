@@ -1,4 +1,4 @@
-# Sexto taller de ARSW
+# Septimo taller de ARSW
 
 Tablero interactivo multiusuario
 
@@ -7,7 +7,7 @@ Tablero interactivo multiusuario
 Clonamos el repositorio con la siguiente instrucción en consola:
 
 ```
-https://github.com/ronis97/arswt6
+https://github.com/ronis97/arswt7
 ```
 
 
@@ -41,20 +41,18 @@ En el navegador entramos con la dirección:
 http://127.0.0.1:8080
 ```
 
-![](https://github.com/ronis97/arswt6/blob/main/resources/Captura.JPG)
+
 
 
 ### Ejecucion
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://interactive-whiteboard01.herokuapp.com)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://powerful-bayou-71891.herokuapp.com/)
 
 
 
 ### Diagrama de clases
 
-El diagrama completo se puede encontrar en el archivo `tallerArsw6.asta` 
 
-![](https://github.com/ronis97/arswt6/blob/main/resources/diagramaclases.png)
 
 
 
