@@ -70,7 +70,7 @@ class BBCanvas extends React.Component {
 }
 function BBServiceURL() {
     var host = window.location.host;
-    var url = 'wss://' + (host) + '/bbService';
+    var url = 'wss://' + 'powerful-bayou-71891.herokuapp.com' + '/bbService';
     console.log("URL Calculada: " + url);
     return url;
 }
@@ -93,7 +93,7 @@ class Editor extends React.Component {
 
    // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
-    return 'ws://powerful-bayou-71891.herokuapp.com//bbService';
+    return 'ws://localhost:8080/bbService';
 }
 
 class WSBBChannel {
