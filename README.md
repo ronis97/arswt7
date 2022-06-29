@@ -7,7 +7,7 @@ Tablero interactivo multiusuario
 Clonamos el repositorio con la siguiente instrucción en consola:
 
 ```
-https://github.com/ronis97/arswt7
+git clone https://github.com/ronis97/arswt7
 ```
 
 
